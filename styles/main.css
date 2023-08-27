@@ -1,0 +1,12 @@
+main{
+  margin-top: 60px;
+  height: 700px;
+  padding: 10000px;
+  position: relative;
+}
+
+main p{
+  position: absolute;
+  top: 500px;
+  left: 30px;
+}
