@@ -1,8 +1,17 @@
+:root{
+  --theme-color1: #142e49;
+  --theme-color2: #dfe1ca;
+}
+body{
+  margin: 0;
+}
+
 main{
-  margin-top: 60px;
+  margin-top: 0px;
   height: 700px;
-  padding: 10000px;
+  padding: 60px 20px;
   position: relative;
+  background-color: var(--theme-color2);
 }
 
 main p{
