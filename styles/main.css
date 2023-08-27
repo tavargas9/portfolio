@@ -12,7 +12,7 @@ body{
 main{
   margin-top: 0px;
   height: 200vh;
-  padding: 100px 0px;
+  padding: 60px 0px;
   position: relative;
   background-color: var(--theme-color2);
 }
@@ -22,7 +22,7 @@ h2{
 }
 
 .main-content{
-  padding: 50px 10px 300px 10px;
+  padding: 30px 10px 300px 10px;
 }
 
 .content-section{
@@ -138,9 +138,28 @@ h2{
   height: fit-content;
   font-size: xx-large;
   font-weight: 700;
+  text-align: center;
 }
 
 .skillset-grid i{
   color: var(--theme-color2);
   font-size: 200%;
+}
+
+@media (max-width: 768px) {
+  .skillset-grid{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20%;
+    row-gap: 20%;
+  }
+  .content-grid{
+    padding: 20px;
+  }
+}
+
+@media (max-width: 410px) {
+  .skillset-grid li{
+    font-size: x-large;
+  }
+  
 }

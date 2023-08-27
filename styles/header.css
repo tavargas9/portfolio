@@ -50,6 +50,13 @@ header .fa-solid{
   transition: color 0.30s, opacity 0.15s;
 }
 
+@media (max-width: 569px){
+  header .fa-brands,
+  header .fa-solid{
+    font-size: medium;
+  }
+}
+
 header .fa-brands:hover,
 header .fa-solid:hover{
   color: var(--theme-color3);
