@@ -1,9 +1,12 @@
 :root{
   --theme-color1: #142e49;
   --theme-color2: #dfe1ca;
+  --theme-color3: #c35d36;
 }
 body{
   margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: var(--theme-color1);
 }
 
 main{
@@ -14,8 +17,27 @@ main{
   background-color: var(--theme-color2);
 }
 
-main p{
-  position: absolute;
-  top: 500px;
-  left: 30px;
+h2{
+  font-family: 'Playfair Display',Arial, Helvetica, sans-serif;
+}
+
+.main-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-about-me,
+.right-about-me{
+  background-color: #e7e9ce;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  justify-content: space-around;
+}
+.left-about-me span{
+  font-weight: 700;
+  color: var(--theme-color3);
 }

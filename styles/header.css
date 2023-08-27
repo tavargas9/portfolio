@@ -1,6 +1,7 @@
 :root{
   --theme-color1: #142e49;
   --theme-color2: #dfe1ca;
+  --theme-color3: #c35d36;
 }
 
 header{
@@ -17,6 +18,10 @@ header{
   background-color: var(--theme-color2);
   box-shadow: rgb(174, 174, 174) 0px 0px 20px;
   z-index: 100;
+}
+
+h1 span{
+  color: var(--theme-color3)
 }
 
 .header-middle-section{
