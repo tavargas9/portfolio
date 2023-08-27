@@ -42,11 +42,20 @@ h1 span{
   display: flex;
   justify-content: flex-end;
 }
-.fa-brands,
-.fa-solid{
+
+header .fa-brands,
+header .fa-solid{
   font-size: x-large;
   color: var(--theme-color1);
+  transition: color 0.30s, opacity 0.15s;
 }
+
+header .fa-brands:hover,
+header .fa-solid:hover{
+  color: var(--theme-color3);
+  cursor: pointer;
+}
+
 .fa-bars{
   margin-right: 20px;
 }
@@ -58,6 +67,16 @@ h1{
   text-align: center;
   font-size: 50px;
   color: var(--theme-color1);
+  transition: color .30s, opacity 0.15s;
 }
 
+h1:hover{
+  color: var(--theme-color3);
+  cursor: pointer;
+}
 
+header .fa-brands:active,
+header .fa-solid:active,
+h1:active{
+  opacity: 0.7;
+}
