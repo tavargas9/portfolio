@@ -12,7 +12,7 @@ body{
 main{
   margin-top: 0px;
   height: 700px;
-  padding: 60px 20px;
+  padding: 100px 20px;
   position: relative;
   background-color: var(--theme-color2);
 }
@@ -24,6 +24,7 @@ h2{
 .main-content{
   display: flex;
   justify-content: space-around;
+  height: 500px;
 }
 
 .left-about-me,
@@ -36,8 +37,28 @@ h2{
   padding: 20px;
   margin: 10px;
   justify-content: space-around;
+  align-items: center;
+  flex: 1;
 }
+
 .left-about-me span{
   font-weight: 700;
   color: var(--theme-color3);
+}
+
+.right-about-me-buttons{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.about-me-button,
+.projects-button{
+  border: none;
+  width: 120px;
+  background-color: var(--theme-color1);
+  color: var(--theme-color2);
+  border-radius: 50px;
 }
