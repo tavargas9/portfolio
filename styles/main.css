@@ -1,6 +1,6 @@
 :root{
   --theme-color1: #142e49;
-  --theme-color2: #dfe1ca;
+  --theme-color2: #f0ece4;
   --theme-color3: #c35d36;
 }
 body{
@@ -22,7 +22,8 @@ h2{
 }
 
 .main-content{
-  padding: 30px 10px 300px 10px;
+  padding: 30px 10px;
+  height: 100vh;
 }
 
 .content-section{

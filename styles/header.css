@@ -1,6 +1,6 @@
 :root{
   --theme-color1: #142e49;
-  --theme-color2: #dfe1ca;
+  --theme-color2: #f0ece4;
   --theme-color3: #c35d36;
 }
 
@@ -16,7 +16,7 @@ header{
   top: 0px;
   left: 0px;
   background-color: var(--theme-color2);
-  box-shadow: rgb(174, 174, 174) 0px 0px 20px;
+  box-shadow: rgb(174, 174, 174) 0px 0px 5px;
   z-index: 100;
 }
 
