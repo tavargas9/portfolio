@@ -30,7 +30,6 @@ h2{
   display: flex;
   flex-direction: column;
   border-radius: 50px;
-  text-align: center;
   padding: 20px;
   margin: 10px;
   justify-content: space-around;
@@ -166,4 +165,28 @@ h2{
     font-size: x-large;
   }
   
+}
+
+@media (min-width: 960px){
+  .main-content{
+    display: flex;
+  }
+  .content-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 35vh;
+    align-items: flex-start;
+  }
+
+  .left-about-me{
+    padding-left: 60px;
+  }
+  .left-about-me h2{
+    font-size: 100px;
+    margin: 20px 0px;
+  }
+
+  .right-about-me p{
+    font-size: xx-large;
+  }
 }
