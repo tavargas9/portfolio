@@ -98,7 +98,7 @@ h2{
 
 
 
-.second-content{
+.skillset-content{
   background-color: var(--theme-color1);
   margin: 0px;
   color: var(--theme-color2);
@@ -115,7 +115,7 @@ h2{
   height: 70vh;
 }
 
-.content-grid h4{
+h4{
   display: inline-block;
   font-size: xx-large;
 }
@@ -147,6 +147,32 @@ h2{
 .skillset-grid i{
   color: var(--theme-color2);
   font-size: 200%;
+}
+
+.projects{
+background-color: var(--theme-color2);
+margin: 0px;
+color: var(--theme-color1);
+height: max-content;
+text-align: center;
+}
+
+.projects span{
+  color: var(--theme-color3);
+}
+
+.projects-flexbox{
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.projects-section img{
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {
