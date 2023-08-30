@@ -33,7 +33,7 @@ h2{
   padding: 20px;
   margin: 10px;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   flex: 1;
   text-align: left;
 }
@@ -170,6 +170,7 @@ h2{
 @media (min-width: 960px){
   .main-content{
     display: flex;
+    flex-direction: row;
   }
   .content-section{
     display: flex;
