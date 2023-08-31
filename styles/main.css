@@ -223,6 +223,74 @@ text-align: center;
   margin-top: 8%;
 }
 
+.contact-me{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--theme-color1);
+  color: var(--theme-color3);
+  align-items: center;
+  min-height: 75vh;
+  max-height: fit-content;
+  justify-content: center;
+  gap: 5%;
+}
+
+.contact-me h5{
+  font-size: xx-large;
+}
+
+.contact-me span{
+  color: var(--theme-color2);
+}
+
+.contactCard{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.rightContactCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.rightContactCard a{
+  display: flex;
+  align-items: center;
+  color: var(--theme-color2);
+  font-size: large;
+  transition: color 0.30s;
+}
+
+.rightContactCard a:hover{
+  color: var(--theme-color3);
+  cursor: pointer;
+}
+
+.rightContactCard i{
+  margin-right: 8px;
+  font-size: x-large;
+}
+
+.leftContactCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftContactCard p{
+  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.leftContactCard img{
+  width: 50%;
+  border-radius: 100%;
+}
+
 @media (max-width: 768px) {
   .skillset-grid{
     grid-template-columns: 1fr 1fr;
