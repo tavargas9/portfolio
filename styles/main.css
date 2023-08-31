@@ -171,12 +171,56 @@ text-align: center;
 }
 
 .projects-section{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectCard{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project2{
+  flex-wrap: wrap-reverse;
 }
 
 .projects-section img{
-  max-width: 100%;
+  width: 50%;
+  flex: 1;
+  border-radius: 10px;
+  margin: 2%;
+  object-fit: contain;
+}
+
+.project-info{
+  flex: 1;
+  margin: 0 5%;
+}
+
+.project-title{
+  font-size: large;
+  font-weight: bolder;
+}
+
+.project-title span{
+  color: var(--theme-color3);
+}
+
+.project-discription{
+  text-align: left;
+}
+
+.made-with{
+  display: flex;
+  font-size: xx-large;
+  justify-content: space-evenly;
+}
+
+.project-deployments{
+  display: flex;
+  font-size: large;
+  justify-content: space-evenly;
+  margin-top: 8%;
 }
 
 @media (max-width: 768px) {
