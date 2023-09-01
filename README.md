@@ -6,7 +6,7 @@ This my developer portfolio I built using only HTML and CSS.
 
 ## Installation
 
-Head over to the link to see the deployed web app ---> <a>tomasavargas.dev</a>
+Head over to the link to see the deployed web app ---> <a href="https://tavargas9.github.io/portfolio/">tavargas9.github.io</a>
 
 ## Usage
 
