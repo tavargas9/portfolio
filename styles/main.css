@@ -178,6 +178,10 @@ text-align: center;
 .projectCard{
   display: flex;
   flex-wrap: wrap;
+  background-color: #d3cfc7;
+  margin: 10px;
+  border-radius: 15px;
+  align-items: center;
 }
 
 .project2{
@@ -223,6 +227,16 @@ text-align: center;
   margin-top: 8%;
 }
 
+.project-deployments a{
+  color: var(--theme-color1);
+  transition: color 0.30s;
+}
+
+.project-deployments a:hover{
+  color: var(--theme-color3);
+  cursor: pointer;
+}
+
 .contact-me{
   display: flex;
   flex-direction: column;
@@ -262,6 +276,7 @@ text-align: center;
   color: var(--theme-color2);
   font-size: large;
   transition: color 0.30s;
+  padding: 10px;
 }
 
 .rightContactCard a:hover{
@@ -299,6 +314,14 @@ text-align: center;
   }
   .content-grid{
     padding: 20px;
+  }
+
+  .main-project{
+    flex-direction: column;
+  }
+
+  .project2{
+    flex-direction: column-reverse;
   }
 }
 
