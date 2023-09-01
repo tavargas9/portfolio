@@ -16,7 +16,7 @@ Scroll through the page or hit the links to see my about me info, projects, my s
 
 ## Credits
 
-Thanks to <a href="https://github.com/necolas">Necolas</a> for the <a href="github.com/necolas/normalize.css"> Normalize.css</a> file.
+Thanks to <a href="https://github.com/necolas">Necolas</a> for the <a href="https://github.com/necolas/normalize.css"> Normalize.css</a> file.
 
 ## License
 
