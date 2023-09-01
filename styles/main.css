@@ -177,23 +177,36 @@ text-align: center;
 
 .projectCard{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   background-color: #d3cfc7;
   margin: 10px;
   border-radius: 15px;
   align-items: center;
 }
 
+.projectCard a{
+  width: 50%;
+  flex: 1;
+}
+
+.main-project{
+  border: solid var(--theme-color3) 3px;
+  box-shadow: var(--theme-color3) 0px 0px 10px;
+}
 .project2{
   flex-wrap: wrap-reverse;
 }
 
 .projects-section img{
-  width: 50%;
-  flex: 1;
+  width: 90%;
   border-radius: 10px;
   margin: 2%;
   object-fit: contain;
+  transition: opacity 0.30s;
+}
+
+.projects-section img:hover{
+  opacity: 0.6;
 }
 
 .project-info{
